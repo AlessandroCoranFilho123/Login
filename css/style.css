@@ -10,6 +10,7 @@ body {
     background-color: #110e27;
     font-family: Arial, Helvetica, sans-serif;
     overflow-y: hidden;
+    overflow-x: hidden;
 }
 
 form {
@@ -36,7 +37,7 @@ form * {
 
 form h3 {
     letter-spacing: 4px;
-    color: White;
+    color: #ffffff;
     font-size: 35px;
     font-weight: 500;
     line-height: 42px;
@@ -75,8 +76,16 @@ button {
     cursor: pointer;
 }
 
+button:hover {
+    background-color: #dadada;
+}
+
+button:active {
+    background-color: rgb(167, 167, 167);
+}
+
 ::placeholder {
-    color: white;
+    color: #ffffff;
 }
 
 @media (max-width: 768px) {
@@ -104,21 +113,6 @@ button {
         top: auto;
         left: auto;
         margin: 0;
-    }
-
-    .circulo {
-        height: 100px;
-        width: 100px;
-    }
-
-    .circulo:first-child {
-        left: 0;
-        top: 0;
-    }
-
-    .circulo:last-child {
-        right: 0;
-        bottom: 0;
     }
 
     form h3 {
