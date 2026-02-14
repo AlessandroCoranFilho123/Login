@@ -1,6 +1,6 @@
 # Página de login
 
-Site simples de uma página de login, com uma interface totalmente moderna, responsiva e intuitiva.
+Site simples que fiz simulando uma página de login, com uma interface totalmente moderna, responsiva e intuitiva.
 
 ## Link para o site
 
