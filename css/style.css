@@ -8,7 +8,7 @@
 
 body {
     background-color: #110e27;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, sans-serif;
     overflow-y: hidden;
     overflow-x: hidden;
 }
@@ -30,7 +30,7 @@ form {
 
 form * {
     color: #ffffff;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     outline: none;
     border: none;
 }
@@ -39,10 +39,9 @@ form h3 {
     letter-spacing: 4px;
     color: #ffffff;
     font-size: 35px;
-    font-weight: 500;
+    font-weight: 900;
     line-height: 42px;
     text-align: center;
-    font-family: impact;
 }
 
 label {
@@ -86,6 +85,50 @@ button:active {
 
 ::placeholder {
     color: #ffffff;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.lembrar {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    line-height: 1;
+}
+
+.lembrar input[type="checkbox"] {
+    display: inline-block;
+    margin-top: 0;
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+    accent-color: #ffffff;
+}
+
+.lembrar label {
+    display: inline-block;
+    margin-top: 0;
+    font-size: 14px;
+    font-weight: 300;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.esqueceu-senha {
+    font-size: 14px;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+}
+
+.esqueceu-senha:hover {
+    text-decoration: underline;
 }
 
 @media (max-width: 768px) {
