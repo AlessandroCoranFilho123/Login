@@ -6,73 +6,74 @@
     box-sizing: border-box;
 }
 
+html {
+    font-size: 62.5%; /* 62.5% de 16px = 10px */
+}
+
 body {
+    font-size: 1.6rem; /* 16px */
+    line-height: 1.5;
     background-color: #110e27;
-    font-family: Arial, sans-serif;
-    overflow-y: hidden;
-    overflow-x: hidden;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
 }
 
 form {
-    height: 520px;
-    width: 400px;
+    min-height: 52rem; /* 520px */
+    width: 40rem; /* 400px */
     background-color: rgba(255, 255, 255, 0.13);
-    position: absolute;
-    transform: translate(-50%, -50%);
-    top: 50%;
-    left: 50%;
-    border-radius: 10px;
-    backdrop-filter: blur(10px);
-    border: 2px solid rgba(255, 255, 255, 0.1);
-    box-shadow: 0 0 40px rgba(8, 7, 16, 0.6);
-    padding: 50px 35px;
+    border-radius: 1rem; /* 10px */
+    backdrop-filter: blur(1rem);
+    border: 0.2rem solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 4rem rgba(8, 7, 16, 0.6);
+    padding: 5rem 3.5rem; /* 50px 35px */
 }
 
 form * {
     color: #ffffff;
-    letter-spacing: 1px;
     outline: none;
     border: none;
 }
 
 form h3 {
-    letter-spacing: 4px;
-    color: #ffffff;
-    font-size: 35px;
+    font-size: 3.5rem; /* 35px */
     font-weight: 900;
-    line-height: 42px;
     text-align: center;
+    margin-bottom: 2rem; /* 20px */
 }
 
 label {
     display: block;
-    margin-top: 30px;
-    font-size: 16px;
+    margin-top: 3rem; /* 30px */
     font-weight: 200;
 }
 
 input {
     display: block;
-    height: 50px;
+    height: 5rem; /* 50px */
     width: 100%;
     background-color: rgba(255, 255, 255, 0.07);
-    border-radius: 3px;
-    padding: 0 10px;
-    margin-top: 8px;
-    font-size: 14px;
-    font-weight: 300;
+    border-radius: 0.5rem; /* 5px */
+    padding: 0 1rem; /* 10px */
+    margin-top: 0.8rem; /* 8px */
+    font-size: 1.4rem; /* 14px */
 }
 
 button {
-    margin-top: 50px;
+    margin-top: 5rem; /* 50px */
     width: 100%;
     background-color: #ffffff;
     color: #07060f;
-    padding: 15px 0;
-    font-size: 18px;
+    padding: 1.5rem 0; /* 15px 0px */
+    font-size: 1.8rem; /* 18px */
     font-weight: 600;
-    border-radius: 5px;
+    border-radius: 0.5rem; /* 5px */
     cursor: pointer;
+    transition: background-color 0.3s ease;
 }
 
 button:hover {
@@ -84,29 +85,28 @@ button:active {
 }
 
 ::placeholder {
-    color: #ffffff;
+    color: rgba(255, 255, 255, 0.7);
 }
 
 .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 20px;
+    margin-top: 2rem; /* 20px */
     width: 100%;
 }
 
 .lembrar {
     display: flex;
     align-items: center;
-    gap: 8px;
-    line-height: 1;
+    gap: 0.8rem; /* 8px */
 }
 
 .lembrar input[type="checkbox"] {
     display: inline-block;
     margin-top: 0;
-    width: 16px;
-    height: 16px;
+    width: 1.6rem; /* 16px */
+    height: 1.6rem;  /* 16px */
     cursor: pointer;
     accent-color: #ffffff;
 }
@@ -114,14 +114,14 @@ button:active {
 .lembrar label {
     display: inline-block;
     margin-top: 0;
-    font-size: 14px;
+    font-size: 1.4rem; /* 14px */
     font-weight: 300;
     cursor: pointer;
     white-space: nowrap;
 }
 
 .esqueceu-senha {
-    font-size: 14px;
+    font-size: 1.4rem;  /* 14px */
     color: #ffffff;
     text-decoration: none;
     font-weight: 300;
@@ -131,51 +131,14 @@ button:active {
     text-decoration: underline;
 }
 
-@media (max-width: 768px) {
-
-    html,
-    body {
-        height: 100%;
-        overflow: hidden;
-    }
-
-    body {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        min-height: 100vh;
-    }
-
+@media (max-width: 480px) {
     form {
         width: 90%;
-        max-width: 400px;
-        height: auto;
-        padding: 40px 25px;
-        position: relative;
-        transform: none;
-        top: auto;
-        left: auto;
-        margin: 0;
+        padding: 4rem 2.5rem;  /* 40px 25px */
+        min-height: auto;
     }
 
     form h3 {
-        font-size: 32px;
-        margin-bottom: 20px;
-    }
-
-    label {
-        margin-top: 25px;
-        font-size: 16px;
-    }
-
-    input {
-        height: 45px;
-        margin-top: 8px;
-    }
-
-    button {
-        margin-top: 40px;
-        padding: 15px 0;
-        font-size: 18px;
+        font-size: 2.8rem;
     }
 }
