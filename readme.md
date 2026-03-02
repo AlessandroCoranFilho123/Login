@@ -9,7 +9,7 @@
   <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel" />
 </div>
 
-#
+
 ## Link para o site
 Hospedado gratuitamente pelo Vercel, acesse pelo link que fica ao lado dos arquivos ou clicando abaixo:
 
@@ -18,7 +18,7 @@ Hospedado gratuitamente pelo Vercel, acesse pelo link que fica ao lado dos arqui
 [![Deployed on Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://login-lovat-iota.vercel.app)
 </div>
 
-#
+
 ## Captura de tela
 
 <div align="center">
