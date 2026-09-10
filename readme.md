@@ -9,16 +9,16 @@
   <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel" />
 </div>
 
-#
 ## Link para o site
+
 Hospedado gratuitamente pelo Vercel, acesse pelo link que fica ao lado dos arquivos ou clicando abaixo:
 
 <div align="center">
 
 [![Deployed on Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://login-lovat-iota.vercel.app)
+
 </div>
 
-#
 ## Captura de tela
 
 <div align="center">
@@ -26,7 +26,7 @@ Hospedado gratuitamente pelo Vercel, acesse pelo link que fica ao lado dos arqui
 </div>
 
 ## Funcionalidades
-- **Design Responsivo** – Perfeito em desktop, tablet e celulares
+
+- **Design Responsivo** – Funciona perfeitamente em desktop, tablet e celulares
 - **Animações Suaves** – Efeitos de hover e active
 - **Validação Visual** – Feedback instantâneo em campos
-- **UI Moderna** – Glassmorphism + gradientes atuais
